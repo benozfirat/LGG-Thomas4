@@ -17,7 +17,7 @@ def get_lives():
 
 def get_guess(suggested_letters):
     while True:
-        guess = input("Try a letter").upper()
+        guess = input("Try a letter \n").upper()
         if len(guess) != 1:
             print("Only one letter")
             continue
